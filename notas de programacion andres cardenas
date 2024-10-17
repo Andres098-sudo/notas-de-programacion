@@ -6,39 +6,39 @@ class HelloWorld {
         // Tipos de datos primitivos en Java
 
         // Enteros
-        byte enteroMuyPequeno = 0; 
+        byte enteroMuyPequeno ;
         System.out.println("El rango de un byte es -128 a 127");
         
-        short enteroPequeno = 0; 
+        short enteroPequeno ;
         System.out.println("El rango de un short es -32,768 a 32,767");
         
-        int entera = 0; 
+        int entera ;
         System.out.println("El rango de un int es -2,147,483,648 a 2,147,483,647");
         
-        long enteroGrande = 0L; 
+        long enteroGrande ;
         System.out.println("El rango de un long es -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807");
         
         // Decimales
-        float decimal = 0.0f; 
+        float decimal ;
         System.out.println("El rango de un float es 1.4e-045 a 3.4e+038");
         
-        double decimalDoble = 0.0; 
+        double decimalDoble ;
         System.out.println("El rango de un double es 4.9e-324 a 1.8e+308");
         
         // Booleano
-        boolean bool = false; 
+        boolean bool ;
         System.out.println("El rango de un booleano es falso y verdadero");
         
         // Caracter
-        char caracter = 'a'; 
+        char caracter ;
         System.out.println("El rango de un caracter es 0 a 65,535");
         
         // Objetos
-        Object objeto = new Object(); 
+        Object objeto ;
         System.out.println("Se ha creado un objeto de tipo Object.");
         
         // Cadena
-        String cadena = "";
+        String cadena ;
         System.out.println("Se ha creado una cadena vacia.");
     }
 }
