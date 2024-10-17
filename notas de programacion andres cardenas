@@ -1,44 +1,56 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-class HelloWorld {
+public class Main {
     public static void main(String[] args) {
-        // Tipos de datos primitivos en Java
+        // Entero
+        int integer= 33;
+        System.out.println("the range of Integer is -2147483648 to 2147483647");
+        System.out.println("El int es "+ integer);
 
-        // Enteros
-        byte enteroMuyPequeno ;
-        System.out.println("El rango de un byte es -128 a 127");
-        
-        short enteroPequeno ;
-        System.out.println("El rango de un short es -32,768 a 32,767");
-        
-        int entera ;
-        System.out.println("El rango de un int es -2,147,483,648 a 2,147,483,647");
-        
-        long enteroGrande ;
-        System.out.println("El rango de un long es -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807");
-        
-        // Decimales
-        float decimal ;
-        System.out.println("El rango de un float es 1.4e-045 a 3.4e+038");
-        
-        double decimalDoble ;
-        System.out.println("El rango de un double es 4.9e-324 a 1.8e+308");
-        
-        // Booleano
-        boolean bool ;
-        System.out.println("El rango de un booleano es falso y verdadero");
-        
-        // Caracter
-        char caracter ;
-        System.out.println("El rango de un caracter es 0 a 65,535");
-        
-        // Objetos
-        Object objeto ;
-        System.out.println("Se ha creado un objeto de tipo Object.");
-        
-        // Cadena
-        String cadena ;
-        System.out.println("Se ha creado una cadena vacia.");
+        //Caracater
+        char caracater = 'k';
+        Character caracaterObject;
+        System.out.println("the range of Character is 0 to 65535");
+        System.out.println("El char es " + caracater);
+
+        //Boolean
+        boolean booleanNumber = false;
+        System.out.println("the range of Boolean is True or False ");
+        System.out.println("El boolean es "+ booleanNumber);
+
+        //Byte
+        byte byteNumber = 11;
+        System.out.println("the range of Byte is -128 to 127");
+        System.out.println("El byte es "+ byteNumber);
+
+        //Short
+        short shortNumber = 23;
+        System.out.println("the range of Short is -32768 to 32767");
+        System.out.println("El short es " + shortNumber);
+
+        //Decimal double
+        double doubleNumber = 1.2232;
+        System.out.println("the range of Double is  4.9e-324 to 1.8e308");
+        System.out.println("El double es "+ doubleNumber);
+
+        //Float / flotante
+        float floatNumber = 33.872f;
+        System.out.println("the range of Float is 1.4e-45 to 3.4e38 ");
+        System.out.println("El float es "+ floatNumber);
+
+        //Long
+        long longNumber = 222327;
+        System.out.println("the range of Long is -9223372036854775808 to 9223372036854775807");
+        System.out.println("El long es "+ longNumber);
+       
+        //Cadena de caracteres
+        String cadena = "cardenas" ;
+        System.out.println("the range of String is 12+4+20=36 bytes");
+        System.out.println("El String es "+ cadena);
+       
+        //Object
+        Object objeto;
+       
     }
 }
