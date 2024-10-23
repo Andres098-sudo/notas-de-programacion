@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese la cantidad de estudiantes : ");
+        int tamano = scanner.nextInt();
+        scanner.nextLine();
+
+        String[] nombres = new String[tamano];
+        String[] apellidos = new String[tamano];
+        double[][] notas = new double[tamano][3]; 
+
+        for (int i = 0; i < tamano; i++) {
+            System.out.print("Ingrese nombres " + (i + 1) + ": ");
+            nombres[i] = scanner.nextLine();
+        }
+
+ 
+        for (int i = 0; i < tamano; i++) {
+            System.out.print("Ingrese el apellido " + (i + 1) + ": ");
+            apellidos[i] = scanner.nextLine();
+        }
+
+     
+        for (int i = 0; i < tamano; i++) {
+            System.out.println("Ingrese las 3 notas para " + nombres[i] + " " + apellidos[i] + ":");
+            for (int j = 0; j < 3; j++) {
+                System.out.print("Nota " + (j + 1) + ": ");
+                notas[i][j] = scanner.nextDouble();
+            }
+            
+        }
+            scanner.nextLine();
+    }
+}
